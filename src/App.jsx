@@ -1,16 +1,15 @@
 import React from 'react';
-import TaskList from './TaskList';
-import TaskForm from './TaskForm';
-import './App.css';
+import AddTask from './components/AddTask';
+import ListTask from './components/ListTask';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Todo List</h1>
-      <TaskForm />
-      <TaskList />
+      <h1>Todo App</h1>
+      <AddTask />
+      <ListTask />
     </div>
   );
-}
+};
 
 export default App;
